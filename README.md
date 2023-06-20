@@ -2,7 +2,7 @@
 Code Repo for Inner Edge of Stability research w/ Prof. Tamayo
 
 
-# Summary of repo and what is left to do
+# Summary of Repo
 
 All of my files are in Real_Research, but I put a copy of the most important ones in June_2023_Most_Important_Files. This has the following files: 
 
