@@ -12,9 +12,9 @@ All of my files are in Real_Research, but I put a copy of the most important one
 
 -Code_For_Obtaining_Initial_KDE_From_Populations.ipynb: Includes my code for creating a sample distribution of features, like eccentricity or mass, from an existing population of planets. This needs to be implemented in the Final_Status_of_Code
 
-exoarchive_planet_pairs.csv: Prof. Tamayo's csv of planets
+-exoarchive_planet_pairs.csv: Prof. Tamayo's csv of planets
 
-- Final_Status_of_Code.ipynb:
+-Final_Status_of_Code.ipynb:
         The final status of the code used to make the graphs in the paper. There's two main TODO's for this before the paper can be completed. The first is to put the gaussian_kde code from
         Code_For_Obtaining_Initial_KDE_From_Populations.ipynb into the 5th cell in this code where the populations are initialized. The second, and less important, TODO is to double check how the
         KS-test calculates its p-values for how similar the curves are. 
