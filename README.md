@@ -14,7 +14,9 @@ All of my files are in Real_Research, but I put a copy of the most important one
 
 -exoarchive_planet_pairs.csv: Prof. Tamayo's csv of planets
 
--Final_Status_of_Code.ipynb:
-        The final status of the code used to make the graphs in the paper. There's two main TODO's for this before the paper can be completed. The first is to put the gaussian_kde code from
-        Code_For_Obtaining_Initial_KDE_From_Populations.ipynb into the 5th cell in this code where the populations are initialized. The second, and less important, TODO is to double check how the
-        KS-test calculates its p-values for how similar the curves are. 
+-Final_Status_of_Code_Before_KDE.ipynb: This was the code before I cleaned things up and added KDE sampling to initialize the population
+         
+-June2023_Final_Population_Initialized_From_KDEs-Copy1: This is the final status of the code. I added KDE sampling to initialize the population and cleaned up the code a little to make sure it worked, and I generated the following figure as a "final" plot of observed period ratios versus the spock-flitered period ratios. This graph can change if you want to initialize the populations differently, but right now, it was made by initializing with observered masses and eccentricities. 
+
+![image](https://github.com/bbonifacio-at-mudd/InnerEdgeofStability/assets/114462423/9080aa30-9902-492d-8d6d-8379cacbc087)
+
